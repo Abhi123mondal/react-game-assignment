@@ -1,0 +1,58 @@
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #db9627;
+    overflow-x: hidden;
+   
+  }
+  
+  
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+    font-weight: bold;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: rgb(8, 0, 255);
+  }
+  
+  .sidenav span:hover {
+    cursor: pointer;
+  }
+  
+  
+    .sidenav {
+      padding-top: 15px;
+    }
+  
+    .sidenav a {
+      font-size: 18px;
+    }
+  
+  
+  .open {
+    width: 250px;
+  }
+  
+  .close {
+    width: 0;
+  }
+  
+  .open-button {
+    font-size: 30px;
+    cursor: pointer
+  }
+  
+  .inline {
+    display: inline;
+  }
