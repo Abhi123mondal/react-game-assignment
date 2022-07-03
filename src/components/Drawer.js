@@ -17,10 +17,10 @@ const Drawer = () => {
 				<span className='closebtn' onClick={() => closeNav(setOpenSideNav)}>
 					&times;
 				</span>
-				<a href='#'>Home</a><br></br>
-				<a href='#'>Sports</a><br></br>
-				<a href='#'>News</a><br></br>
-				<a href='#'>Log out</a><br></br>
+				<a href='#'>Home</a><br></br><br></br>
+				<a href='#'>Sports</a><br></br><br></br>
+				<a href='#'>News</a><br></br><br></br>
+				<a href='#'>Log out</a><br></br><br></br>
 			</div>
 			<span
 				className={`open-button ${openSideNav ? "close" : "open"}`}

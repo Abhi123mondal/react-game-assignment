@@ -27,7 +27,7 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-	background-color: DodgerBlue;
+	background-color: rgb(11, 112, 214);
 	color: #fff;
 	cursor: pointer;
 }
@@ -50,7 +50,7 @@ input[type="submit"] {
 
 /*when hovering an item:*/
 .autocomplete-items:hover {
-	background-color: DodgerBlue;
+	background-color: rgb(243, 18, 224);
 }
 
 
@@ -61,7 +61,7 @@ input[type="submit"] {
 
 .link {
 	text-decoration: none;
-	color: rgb(255, 30, 120);
+	color: rgb(20, 20, 20);
 	padding: 10px;
 	margin: 5px;
 	border: 1px solid #953d3d;
@@ -69,6 +69,6 @@ input[type="submit"] {
 
 
 .active {
-	background-color: rgb(255, 30, 131) !important;
+	background-color: rgb(22, 87, 209) !important;
 	color: rgb(240, 255, 246);
 }
